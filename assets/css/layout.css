@@ -1,0 +1,65 @@
+@import './reset.css';
+@import './common.css';
+
+.header .group-top{ display: flex; height: 47px; }
+.header .group-top .logo::after{ background-position: -5px -165px; width: 105px; height: 27px; margin-top: 7px; }
+.header .group-top .gnb{display: flex; padding-left: 50px;}
+.header .group-top .nav-list{display: flex; gap: 20px; font-size: 16px; font-weight: 700; line-height: 48px;}
+.header .group-top .util-area{margin-left: auto;}
+.header .group-top .util-list{display: flex;}
+.header .group-top .util-item{padding: 0 10px; font-weight: 700; line-height: 48px;}
+
+.header .group-bottom{display: flex; position: relative; align-items: center; justify-content: space-between; height: 119px;}
+.header .group-bottom .slogan-area{ background-image: url(../images/seoul-slogan.png); background-repeat: no-repeat; width: 133px; height: 51px; }
+.header .group-bottom .search-area{height: 42px;}
+.header .group-bottom form{flex: 1; border: 3px solid #2292e9;}
+.header .group-bottom fieldset{display: flex; align-items: center; border: 0;}
+.header .group-bottom .input-text{width: 472px; height: 38px; padding: 10px; border: 0; outline: 0; margin-right: auto; border-color: rgba(0,0,0,0); z-index: 10;}
+.header .group-bottom input::placeholder{color: #2292e9; font-weight: bold;}
+.header .group-bottom .btn-keyboard{background-image: url(../images/keyboard.png); background-repeat: no-repeat; width: 29px; height: 16px; margin-left: 3px;}
+.header .group-bottom .btn-search::after{width: 36px; height: 36px; background-position: -32px -97px;}
+
+.header .group-bottom .lang-area{display: flex; position: absolute; background-color: #fff; top: 0; right: 0;}
+.header .group-bottom .lang-area select{ border-color: #afcfea; color: #1e6cb3; font-size: 12px; padding: 0 0 0 2px; height: 21px; width: 80px; }
+select{ appearance: none; border-radius: 0; background: url(../images/select_arrow.png) no-repeat no-repeat 96% center; background-size: 8px auto; }
+.header .group-bottom .lang-area .btn-go{ width: 30px; font-size: 11px; color: #fff; background-color: #1E6CB3; border: 0; height: 21px; padding: 0; }
+
+.header .group-bottom .weather-area{display: flex; margin: 5px 0 0 5px;}
+.header .weather-area .temp-wrap{display: flex;}
+.header .weather-area .temp-wrap .temp{font-size: 25px; margin-right: 5px;}
+.header .weather-area .temp-wrap .text{font-size: 16px; letter-spacing: -0.1em;}
+.header .weather-area .dust-wrap{font-size: 13px; letter-spacing: -1px; display: block; margin-top: 7px;}
+.header .weather-area .dust-wrap .good{color: #0068b7; margin-right: 3px;}
+.header .weather-area .dust-wrap .good+.good{margin-right: 0px;}
+
+
+
+
+
+/* footer */
+
+.footer .group-top{ display: flex; justify-content: space-between; padding: 15px 0; }
+.footer .nav-list{ display: flex; gap: 20px; }
+.footer .nav-item{ position: relative; color: #636363; font-size: 12px; }
+.footer .nav-list li+li::after{ content: ""; display: block; position: absolute; top: 50%; width: 1px; height: 14px; margin-top: -8px; background: #dcdcdc; margin-left: -10px; }
+.footer .nav-list li:nth-child(2){ font-weight: 700; color: #000; }
+
+.footer .sns-list{ display: flex; gap: 12px; }
+.footer .sns-item{ flex: 1; text-align: center; }
+.footer .sns-item a{ display: flex; flex-direction: column; align-items: center; }
+.footer .sns-item [class*="ic-"]{ width: 24px; height: 24px; position: relative; } 
+.footer .sns-item [class*="ic-"]::after{ content: ""; display: block; position: absolute; top: 0; left: 0; right: 0; bottom: 0; margin: auto; width: 24px; height: 24px; }
+.footer .sns-item .ic-facebook::after{ background-position: -25px 0; }
+.footer .sns-item .ic-twitter::after{ background-position: -50px 0; }
+.footer .sns-item .ic-instagram::after{ background-position: -75px 0; }
+.footer .sns-item .ic-kakaostory::after{ background-position: -100px 0; }
+.footer .sns-item .ic-youtube::after{ background-position: -125px 0; }
+.footer .sns-item .ic-blog::after{ background-position: -150px 0; }
+
+
+.footer .group-bottom{ display: flex; align-items: center; padding: 22px 0; border-top: 1px solid #ccc; }
+.footer .group-bottom .call-area{ background-image: url(../images/sp1.png); background-repeat: no-repeat; background-position: -180px 0; display: block; width: 108px; height: 45px; }
+.footer .group-bottom .addr-area{color: #636363; font-size: 12px; padding-bottom: 2px; font-weight: 500; margin-left: 40px;}
+.footer .addr-area .location a{font-size: 11px;}
+.footer .addr-area .copy{font-size: 11px;}
+.footer .mark-area{margin-left: auto;}
