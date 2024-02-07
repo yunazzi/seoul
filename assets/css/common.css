@@ -1,96 +1,25 @@
-.wrapper{
-    min-width: 1152px;
-}
-.common-inner{
-    width: 1152px;
-    margin: 0 auto;
-}
-.blind{
-    position: absolute;
-    width: 1px; height: 1px;
-    overflow: hidden;
-    clip: rect(0,0,0,0);
-    margin: -1px;
-}
+.wrapper{ min-width: 1152px; }
+.common-inner{ width: 1152px; margin: 0 auto; }
+.blind{ position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0,0,0,0); margin: -1px; }
 
 /* sp0 */
-.sc-visual .tab-nav .tab::before{
-    display: block;
-    content: "";
-    background-image: url(../images/sp0.png);
-    background-repeat: no-repeat;
-}
+.sc-visual .tab-nav .tab::before{ display: block; content: ""; background-image: url(../images/sp0.png); background-repeat: no-repeat; }
 
 /* sp1 */
 .sc-visual .control-area .btn-autoplay.on::after,
 .sc-visual .control-area .btn-next::after,
 .sc-visual .control-area .btn-prev::after,
-.sc-visual .control-area [class*="btn-"]::after{
-    display: block;
-    content: "";
-    background-repeat: no-repeat;
-    background-image: url(https://www.seoul.go.kr/res_newseoul/images/main/icon_set_common_2019.png);
-    width: 20px; height: 20px;
-}
-.sc-board .more-btn::after,
-.header .btn-search::after,
-.header .logo::after{
-    display: block;
-    content: "";
-    background-image: url(../images/sp1.png);
-    background-repeat: no-repeat;
-}
+.sc-visual .control-area [class*="btn-"]::after{ display: block; content: ""; background-repeat: no-repeat; background-image: url(https://www.seoul.go.kr/res_newseoul/images/main/icon_set_common_2019.png); width: 20px; height: 20px; }
+.sc-board .more-btn::after, .header .btn-search::after, .header .logo::after{ display: block; content: ""; background-image: url(../images/sp1.png); background-repeat: no-repeat; }
 /* sp3 */
-.sc-service .service-link [class*="ic-"]::after{
-    display: block;
-    content: "";
-    background-image: url(../images/sp3.png);
-    background-repeat: no-repeat;
-    height: 30px;
-}
+.sc-service .service-link [class*="ic-"]::after{ display: block; content: ""; background-image: url(../images/sp3.png); background-repeat: no-repeat; height: 30px; }
 /* sp4 */
-.sc-service .service-item [class*=ic-]::after{
-    display: block;
-    content: "";
-    background-image: url(../images/sp4.png);
-    background-repeat: no-repeat;
-    width: 60px; height: 60px;
-    margin: 0 auto 10px;
-}
-
-
+.sc-service .service-item [class*=ic-]::after{ display: block; content: ""; background-image: url(../images/sp4.png); background-repeat: no-repeat; width: 60px; height: 60px; margin: 0 auto 10px; }
 /* sp2 */
-.footer .sns-item [class*="ic-"]::after{
-    display: block;
-    content: "";
-    background-image: url(../images/icon_set_sns.png);
-    background-repeat: no-repeat;
-    background-size: 175px;
-}
-
+.footer .sns-item [class*="ic-"]::after{ display: block; content: ""; background-image: url(../images/icon_set_sns.png); background-repeat: no-repeat; background-size: 175px; }
 /* sp5 */
-.sc-sns .sns-area [class*="sns-"]::after{
-    display: block;
-    content: "";
-    background-image: url(../images/sp5.png);
-    background-repeat: no-repeat;
-    width: 40px; height: 40px;
-}
+.sc-sns .sns-area [class*="sns-"]::after{ display: block; content: ""; background-image: url(../images/sp5.png); background-repeat: no-repeat; width: 40px; height: 40px; }
 
-
-.btn-gotop{ /* go top 버튼 */
-    position: fixed;
-    width: 34px; height: 34px;
-    left: 50%;
-    transition: 1s;
-    z-index: 10000;
-    background-image: url(../images/btn_top.png);
-    background-repeat: no-repeat;
-    bottom: -10%;
-    margin-left: 600px;
-    opacity: 0;
-}
-.btn-gotop.show{
-    opacity: 1;
-    bottom: 10%;
-}
+ /* go top 버튼 */
+.btn-gotop{ position: fixed; width: 34px; height: 34px; left: 50%; transition: 1s; z-index: 10000; background-image: url(../images/btn_top.png); background-repeat: no-repeat; bottom: -10%; margin-left: 600px; opacity: 0; }
+.btn-gotop.show{ opacity: 1; bottom: 10%; }
