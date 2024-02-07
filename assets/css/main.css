@@ -3,6 +3,7 @@
 #skipNav a:active, #skipNav a:focus{ transform: translateY(0%); }
 
 /* inner1 */
+.inner1{ display: flex; justify-content: space-between; }
 
 /* sc-visual */
 .sc-visual{ display: flex; width: 770px; height: 350px; }
