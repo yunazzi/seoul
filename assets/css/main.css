@@ -1,4 +1,3 @@
-#skipNav{ position: absolute; top: 0; left: 0; }
 #skipNav a{ position: absolute; top: 0; left: 0; width: 200px; height: 50px; background: #000; color: #fff; text-align: center; line-height: 50px; transform: translateY(-100%); }
 #skipNav a:active, #skipNav a:focus{ transform: translateY(0%); }
 

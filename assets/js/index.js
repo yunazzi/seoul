@@ -5,6 +5,7 @@ $(function(){
         window.open(url);
     })
 
+    //메인 비주얼 슬라이드
     const mainSlide = new Swiper('.main-slide',{
         autoplay:{
             delay:5000,
@@ -41,6 +42,7 @@ $(function(){
         }
     })
 
+    //배너슬라이드
     const bannerSlide = new Swiper('.banner-slide',{
         slidesPerView:3,
         spaceBetween:43,
@@ -74,6 +76,8 @@ $(function(){
         }
     })
 
+
+    //관련사이트 이동
     $('.sc-relate .btn').click(function(){
         if ($(this).hasClass('on')) {
             $('.sc-relate .btn').removeClass('on').siblings().stop().slideUp()
@@ -95,6 +99,7 @@ $(function(){
         }
     })
 
+    //gotop 버튼
     $(window).scroll(function(){
         curr = $(this).scrollTop();
 
